@@ -1,0 +1,7 @@
+{
+  "name": "node-server",
+  "version": "0.0.1",
+  "devDependencies": {
+    "restify": "^4.0.4"
+  }
+}

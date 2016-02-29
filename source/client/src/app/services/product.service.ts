@@ -12,7 +12,7 @@ export class ProductService{
     
     public getAll() : Observable<Product[]>
     {
-        return this._http.get('http://localhost:3000/api/products')
+        return this._http.get('http://bastaspring2016.azurewebsites.net/api/products/list')
             .map(response => response.json());
     }
 }

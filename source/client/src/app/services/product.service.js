@@ -26,7 +26,7 @@ System.register(['angular2/core', 'angular2/http'], function(exports_1, context_
                     this._http = _http;
                 }
                 ProductService.prototype.getAll = function () {
-                    return this._http.get('http://localhost:3000/api/products')
+                    return this._http.get('http://bastaspring2016.azurewebsites.net/api/products/list')
                         .map(function (response) { return response.json(); });
                 };
                 ProductService = __decorate([
