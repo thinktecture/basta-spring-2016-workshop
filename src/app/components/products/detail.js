@@ -1,0 +1,1 @@
+//# sourceMappingURL=detail.js.map

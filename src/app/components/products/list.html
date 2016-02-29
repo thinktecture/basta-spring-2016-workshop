@@ -1,0 +1,10 @@
+<div *ngIf="_products">
+    <div class="panel panel-default" *ngFor="#p of _products">
+        <div class="panel-heading">
+            <span>{{p.name}}</span>
+        </div>
+        <div class="panel-body">
+            {{p.description}}
+        </div>
+    </div>
+</div>
